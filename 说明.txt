@@ -1,0 +1,29 @@
+sd.erl  游戏开启  服务器开启关闭   manage_applications 是干嘛的？
+
+sd_gateway.erl  游戏网关       gen_server？？
+
+sd_gateway_app  mysql数据库连接初始化
+
+sd_gateway_server  tcp服务器
+
+sd_gateway_sup   监控树   监控服务运行状态  gen_supervisor行为模式？？  supervisor？？
+
+sd_networking   网络  开启了各种监控树？？
+
+sd_reader     读取客户端  登陆成功后处理逻辑怎么做？？
+
+sd_schema   创建mnesia数据库  怎么都成注释了？？
+
+sd_server_app  打包程序  是干什么的？？
+
+sd_sup    监控树  怎么两棵监控树
+
+sd_tcp_acceptor   tcp acceptor
+
+sd_tcp_acceptor_sup   tcp acceptor 监控树
+
+sd_tcp_client_sup  客户端服务监控树
+
+sd_tcp_listener tcp监听
+
+sd_tcp_listener_sup  tcp监听  监控树
