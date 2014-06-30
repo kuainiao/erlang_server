@@ -30,10 +30,10 @@
 
 %%数据库连接
 -define(DB, sd_mysql_conn).
--define(DB_HOST, "localhost").
+-define(DB_HOST, "127.0.0.1").
 -define(DB_PORT, 3306).
--define(DB_USER, "sdzmmo").
--define(DB_PASS, "sdzmmo123456").
+-define(DB_USER, "lsm").
+-define(DB_PASS, "lsm").
 -define(DB_NAME, "sdzmmo").
 -define(DB_ENCODE, utf8).
 

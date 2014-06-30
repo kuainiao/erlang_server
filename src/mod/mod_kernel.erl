@@ -41,7 +41,7 @@ init([]) ->
     %% 初始化物品类型及规则列表
     ok = goods_util:init_goods(),
     %经脉列表
-    ok = mod_meridian:init_meridian(),
+    %%ok = mod_meridian:init_meridian(),
     {ok, 1}.
 
 handle_cast(_R , Status) ->
